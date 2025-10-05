@@ -7,6 +7,7 @@ import java.util.List;
 @Entity
 @Table(name = "users_type")
 public class UserType {
+    public static final int RECRUITER_TYPE = 1;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
