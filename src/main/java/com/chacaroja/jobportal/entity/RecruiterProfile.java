@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "recruiter_profile")
-public class RecruiterProfile {
+public final class RecruiterProfile extends Profile{
 
     @Id
     private int userAccountId;

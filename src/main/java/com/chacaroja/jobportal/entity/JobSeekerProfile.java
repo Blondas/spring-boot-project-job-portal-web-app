@@ -6,7 +6,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "job_seeker_profile")
-public class JobSeekerProfile {
+public final class JobSeekerProfile extends Profile {
 
     @Id
     private int userAccountId;
